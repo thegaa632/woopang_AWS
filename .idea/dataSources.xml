@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="scott@localhost" uuid="1f5465b0-88ea-4b10-80ef-c69c2dcae0ba">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/scott</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="scott@pj1.cxsis2y6ujdi.us-east-1.rds.amazonaws.com" uuid="9474ad72-d9dc-483f-9436-869bde28495a">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://pj1.cxsis2y6ujdi.us-east-1.rds.amazonaws.com:3306/scott</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+      <time-zone>America/Virgin</time-zone>
+    </data-source>
+    <data-source source="LOCAL" name="scott@54.147.139.60" uuid="2a05ddce-cbe4-4110-948a-aa934073c4a6">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://54.147.139.60:3306/scott</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</project>

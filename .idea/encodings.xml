@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/standout/sopang/admin/goods/controller/AdminGoodsController.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/standout/sopang/admin/goods/dao/AdminGoodsDAO.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/standout/sopang/admin/goods/dao/AdminGoodsDAOImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/standout/sopang/admin/goods/service/AdminGoodsService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/standout/sopang/admin/goods/service/AdminGoodsServiceImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/standout/sopang/admin/member/controller/AdminMemberControllerImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/standout/sopang/admin/member/dao/AdminMemberDAOImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/standout/sopang/admin/member/service/AdminMemberService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/standout/sopang/admin/member/service/AdminMemberServiceImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/standout/sopang/admin/order/controller/AdminOrderController.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/standout/sopang/cart/controller/CartController.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/standout/sopang/cart/controller/CartControllerImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/standout/sopang/common/file/FileDownloadController.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/standout/sopang/common/interceptor/ViewNameInterceptor.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/standout/sopang/goods/controller/GoodsControllerImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/standout/sopang/goods/dao/GoodsDAO.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/standout/sopang/goods/service/GoodsService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/standout/sopang/goods/service/GoodsServiceImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/standout/sopang/member/controller/MemberController.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/standout/sopang/member/controller/MemberControllerImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/standout/sopang/member/dao/MemberDAO.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/standout/sopang/member/dao/MemberDAOImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/standout/sopang/member/service/MemberService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/standout/sopang/member/service/MemberServiceImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/standout/sopang/mypage/controller/MyPageControllerImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/standout/sopang/mypage/vo/MyPageVO.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/standout/sopang/order/controller/EasyPayController.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/standout/sopang/order/controller/EasyPayPopup.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/standout/sopang/order/controller/OrderController.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/standout/sopang/order/controller/OrderControllerImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/standout/sopang/order/dao/OrderDAO.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/standout/sopang/order/dao/OrderDAOImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/standout/sopang/order/service/ApiService01.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/standout/sopang/order/service/OrderService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/standout/sopang/order/service/OrderServiceImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/resources/js/order.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/resources/js/script.js" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

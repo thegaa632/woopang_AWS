@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="mapper.TodoMapper">
+    <sql id="search">
+        <where>
+            <if test="goods_id_t_shopping_goods != null">
+                goods_id_t_shopping_goods = #{goods_id_t_shopping_goods}
+            </if>
+            <if test="types != null and types.length > 0">
+                <trim prefix="and">
+                    <foreach collection="types" item="type" open="(" close=") " separator=" OR ">
+                        <if test="type == 'searchTitle'.toString()">
+                            title like concat('%', #{keyword}, '%')
+                        </if>
+                        <if test="type == 'searchWriter'.toString()">
+                            writer like concat('%', #{keyword}, '%')
+                        </if>
+                    </foreach>
+                </trim>
+            </if>
+
+            <if test="finished">
+                <trim prefix="and">
+                    finished = 1
+                </trim>
+            </if>
+
+            <if test="from != null and to != null">
+                <trim prefix="and">
+                    dueDate between #{from} and #{to}
+                </trim>
+            </if>
+        </where>
+    </sql>
+
+    <insert id="insert" parameterType="todoVO" >
+        insert into tbl_todo (goods_id_t_shopping_goods, title, content, dueDate, writer, finished) values  (#{goods_id_t_shopping_goods}, #{title}, #{content}, NOW(), #{writer}, 0)
+    </insert>
+
+    <select id="selectAll" resultType="com.standout.sopang.springex.domain.TodoVO">
+        select *
+        from tbl_todo
+        order by tno desc
+    </select>
+
+    <select id="selectOne" resultType="com.standout.sopang.springex.domain.TodoVO">
+        select * from tbl_todo where tno  = #{tno}
+    </select>
+
+    <delete id="delete">
+        delete from tbl_todo where tno = #{tno}
+    </delete>
+
+    <update id="update">
+        update tbl_todo set title = #{title} ,content = #{content}, dueDate = NOW(), finished= #{finished} where tno = #{tno}
+    </update>
+
+    <select id="selectList" resultType="com.standout.sopang.springex.domain.TodoVO">
+        SELECT
+        ROW_NUMBER() OVER (ORDER BY tno) AS tnoNumber,
+        goods_id_t_shopping_goods,
+        tno,
+        title,
+        content,
+        writer,
+        dueDate,
+        finished
+        FROM
+        tbl_todo
+        <include refid="search"/>
+        order by tno desc limit #{skip}, #{size}
+    </select>
+
+    <select id="getCount" resultType="int">
+        select count(tno) from tbl_todo
+        <include refid="search"/>
+    </select>
+
+</mapper>
