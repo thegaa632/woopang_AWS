@@ -8,8 +8,9 @@
 
 	<bean id="hikariConfig" class="com.zaxxer.hikari.HikariConfig">
 		<property name="driverClassName" value="com.mysql.cj.jdbc.Driver"/>
-		<property name="jdbcUrl" value="jdbc:mysql://pj1.cxsis2y6ujdi.us-east-1.rds.amazonaws.com:3306/scott"/>
-		<property name="username" value="admin"/>
+<!--		<property name="jdbcUrl" value="jdbc:mysql://pj1.cxsis2y6ujdi.us-east-1.rds.amazonaws.com:3306/scott"/>-->
+		<property name="jdbcUrl" value="jdbc:mysql://localhost:3306/scott"/>
+		<property name="username" value="root"/>
 		<property name="password" value="12341234"/>
 		<property name="dataSourceProperties">
 			<props>
